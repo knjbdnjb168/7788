@@ -6,7 +6,52 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '99db9986-f57b-49ec-9aaf-52738c0af0ba';
 
-const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
+const proxyIPs = [
+'cdn-all.xn--b6gac.eu.org',
+'cdn.xn--b6gac.eu.org', 
+'cdn-b100.xn--b6gac.eu.org',
+'edgetunnel.anycast.eu.org', 
+'cdn.anycast.eu.org',
+'edgetunnel.anycast.eu.org',
+'www.csgo.com',
+'gur.gov.ua',
+'www.visa.com',
+'www.udacity.com',
+'www.visa.com.hk',
+'www.who.int',
+'www.visakorea.com',
+'www.visa.co.jp',
+'www.zsu.gov.ua',
+'www.gov.se',
+'www.wto.org',
+'www.visa.com.tw',
+'www.shopify.com',
+'shopify.com',
+'www.glassdoor.com',
+'edtunnel-dgp.pages.dev',
+'download.yunzhongzhuan.com',
+'skk.moe',
+'whatismyipaddress.com',
+'www.visa.com.sg',
+'www.chan.org',
+'www.digitalocean.com',
+'time.cloudflare.com',
+'www.okcupid.com',
+'icook.hk',
+'www.ipaddress.my',
+'time.is',
+'singapore.com',
+'iplocation.io',
+'www.iplocation.net',
+'www.whoer.net',
+'www.gco.gov.qa',
+'www.hugedomains.com',
+'www.ipchicken.com',
+'malaysia.com',
+'ip.sb',
+'icook.tw',
+'japan.com',
+'russia.com',];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
